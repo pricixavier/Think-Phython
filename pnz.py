@@ -1,7 +1,7 @@
 a=input()
-if a>o:
+if a>0:
   print("Positive")
-elif a<o:
+elif a<0:
   print("Negative")
 else:
   print("Zero)
