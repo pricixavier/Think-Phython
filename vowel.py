@@ -3,4 +3,4 @@ s=str(input("enter the letter"))
 if(a in d):
   print("vowel")
 else:
-  print("consonant")
+  print("invalid")
