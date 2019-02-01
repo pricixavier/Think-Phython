@@ -1,3 +1,3 @@
-num1=int(raw_input())
-num2=int(raw_input())
+num1=input()
+num2=input()
 print(num1**num2)
