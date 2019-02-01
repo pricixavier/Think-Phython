@@ -1,3 +1,3 @@
-a=int(raw_input())
-b=int(raw_input())
-print(a**b)
+num1=int(raw_input())
+num2=int(raw_input())
+print(num1**num2)
