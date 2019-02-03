@@ -1,6 +1,11 @@
-num=input()
-val=int(num)
-if num==str(num)[::-1]:
-	print("yes")
+n=int(input("Enter number:"))
+temp=n
+rev=0
+while(n>0):
+    dig=n%10
+    rev=rev*10+dig
+    n=n//10
+if(temp==rev):
+    print("yes")
 else:
-	print("no")
+    print("no")
