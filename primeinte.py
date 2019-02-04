@@ -1,9 +1,9 @@
-start=1
-end=10
-for val in range(start, end + 1): 
-   if val > 1: 
-       for n in range(2, val): 
-           if (val % n) == 0: 
+a,b = map(int,raw_input().split())
+for num in range(a,b+ 1): 
+   if num > 1: 
+       for i in range(2,num): 
+           if (num % i) == 0: 
                break
        else: 
-           print(val) 
+           print(num) 
+           num +=1
