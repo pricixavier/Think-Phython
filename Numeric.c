@@ -10,10 +10,10 @@ int main(void) {
 	{
 		if(string[i]>='0' && string[i]<='9')
 		{
-			printf("yes");
+			printf("Yes");
 		}
 		else
-			printf("no");
+			printf("No");
 			break;
  
 	}
