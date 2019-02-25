@@ -1,11 +1,11 @@
-b=raw_input()
-length=len(b)
+c=raw_input()
+length=len(c)
 for i in range(0,length):
-	if(b[i]=="k"):
-		print b[i]
+	if(c[i]=="M"):
+		print c[i]
 		break
 	elif(b[i]=="K"):
-		print b[i]
+		print c[i]
 		break
 	else:
-		print b[i],
+		print c[i],
