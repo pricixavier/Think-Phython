@@ -1,4 +1,5 @@
-m,n=map(int,input().split())
+#priz
+a,b=map(int,input().split())
 c=int(1)
-d=m-n
+d=a-b
 print(c,d)
