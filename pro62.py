@@ -1,6 +1,6 @@
-#prisci
+#abbac
 s=input()
-subst=""
+subst=" "
 f=0
 op=[]
 if s==s[::-1]:
